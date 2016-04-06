@@ -35,10 +35,32 @@
 	<link rel="apple-touch-icon" sizes="144x144" href="/images/logo/apple-touch-icon-144x144.png?v=3">
 	<link rel="apple-touch-icon" sizes="152x152" href="/images/logo/apple-touch-icon-152x152.png?v=3">
 	<link rel="apple-touch-icon" sizes="180x180" href="/images/logo/apple-touch-icon-180x180.png?v=3">
+	
+	<style>
+	video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+	background: url('https://s3-eu-west-1.amazonaws.com/axon-poc/AMA/atieva.com/static/video/homepage_top.jpg') no-repeat;
+	background-size: cover;
+	transition: 1s opacity;
+	}
+	</style>
+	
 </head>
 
 <body>
-      <!--<video data-video-background src="https://s3-eu-west-1.amazonaws.com/axon-poc/AMA/atieva.com/static/video/homepage_top.mp4" poster="https://s3-eu-west-1.amazonaws.com/axon-poc/AMA/atieva.com/static/video/homepage_top.jpg" loop="" data-width="960" data-height="540" autoplay="true"></video>-->
+
+<video autoplay="" poster="https://s3-eu-west-1.amazonaws.com/axon-poc/AMA/atieva.com/static/video/homepage_top.jpg" id="bgvid" loop="">
+<source src="https://s3-eu-west-1.amazonaws.com/axon-poc/AMA/atieva.com/static/video/homepage_top.mp4">
+</video>
+
 </body>
 
 <template name="main">
