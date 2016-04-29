@@ -1,1 +1,213 @@
-.
+{
+	"content": {
+		"panoply-side-trademark": "© 2015 AMA",
+		"facebook-title": "AMA",
+		"facebook-summary": "AMA - Ask Me Anything.",
+		"linkedin-title": "AMA",
+		"linkedin-summary": "AMA - Ask Me Anything.",
+		"twitter-text": "AMA - Ask Me Anything.. %23AMA %40AMA",
+		"mail-text": "AMA - Ask Me Anything."
+	},
+
+	"menu": [
+		{
+			"id": "LogIn",
+			"name": "LogIn",
+			"url": "/works"
+		},{
+			"id": "work",
+			"name": "Why",
+			"url": "/works-projects"
+		},{
+			"id": "about",
+			"name": "How",
+			"url": "/about"
+		},{
+			"id": "contact",
+			"name": "Contact",
+			"url": "/contact"
+		}
+	],
+
+	"default-route": "/works",
+
+	"templates": [
+		{
+			"id": "genesis",
+			"ambient-color": "#232323",
+			"title": "With anyone",
+			"subtitle": "Multi Channels",
+			"video-id": "31193002",
+			"components": [
+				{
+					"type": "extra-margin"
+				},
+				{
+					"type": "fullscreen-image",
+					"image-name": "01",
+					"image-ext": "jpg",
+					"extra-class": "no-padding"
+				},
+				{
+					"type": "extra-margin"
+				},
+				{
+					"type": "paragraph-block",
+					"body": "Text to be added.<br><br>"
+				},
+				{
+					"type": "tag-start",
+					"name": "Our concept"
+				},
+				{
+					"type": "extra-margin"
+				},
+				{
+					"type": "title-paragraph-block",
+					"title": "Our concept",
+					"body": "Text to be added.<br><br>",
+					"extra-class": "big-title"
+				},
+								{
+					"type": "visual-collection-block-vertical",
+					"visuals": [
+						{
+							"image-name": "02",
+							"image-ext": "jpg"		
+						}
+					]
+				},
+				{
+					"type": "fullscreen-image",
+					"image-name": "03",
+					"image-ext": "jpg",
+					"extra-class": "no-padding"
+				},
+				{
+					"type": "extra-margin"
+				},
+				{
+					"type": "tag-end"
+				}
+			]
+		},
+		{
+			"id": "a-guide-to-happy",
+			"ambient-color": "#232323",
+			"title": "Share and discover anything",
+			"subtitle": "Multi Objects",
+			"video-id": "31193002",
+			"components": [
+				{
+					"type": "extra-margin"
+				},
+				{
+					"type": "fullscreen-image",
+					"image-name": "01",
+					"image-ext": "jpg",
+					"extra-class": "no-padding"
+				},
+				{
+					"type": "extra-margin"
+				},
+				{
+					"type": "paragraph-block",
+					"body": "Text to be added.<br><br>"
+				},
+				{
+					"type": "tag-start",
+					"name": "Our concept"
+				},
+				{
+					"type": "extra-margin"
+				},
+				{
+					"type": "title-paragraph-block",
+					"title": "Our concept",
+					"body": "Text to be added.<br><br>",
+					"extra-class": "big-title"
+				},
+								{
+					"type": "visual-collection-block-vertical",
+					"visuals": [
+						{
+							"image-name": "02",
+							"image-ext": "jpg"		
+						}
+					]
+				},
+				{
+					"type": "fullscreen-image",
+					"image-name": "03",
+					"image-ext": "jpg",
+					"extra-class": "no-padding"
+				},
+				{
+					"type": "extra-margin"
+				},
+				{
+					"type": "tag-end"
+				}
+			]
+		}
+	],
+
+	"routing": {
+		"/works": {
+			"content": "works",
+			"landing": {
+				"title": "Ask Me Anything",
+				"subtitle": "Share and discover anything with anyone",
+				"message": "Scroll down to discover our work"
+			},
+			"slides": [
+				{
+					"id": "a-guide-to-happy",
+					"title": "Share and discover anything",
+					"subtitle": "Multi Objects",
+					"video-id": "im9spgzbqn"
+				},
+				{
+					"id": "genesis",
+					"title": "With anyone",
+					"subtitle": "Multi Channels",
+					"video-id": "rmb3ziujkh"
+				}
+			]
+		},
+		"/about": {
+			"content": "about",
+			"slides": [
+				{
+					"title": "High ease of use",
+					"subtitle": "Scalable shared infrastructure,",
+					"mini-subtitle": "combining high ease of use, low complexity & low cost.",
+					"placeholder-name": "about_placeholder_0"
+				},
+				{
+					"title": "High users value",
+					"subtitle": "Users centric solution.",
+					"mini-subtitle": "",
+					"expertises": ["Channels", "Objects", "Analysis", "Agile", "Search", "Security"],
+					"placeholder-name": "about_placeholder_1"
+				}
+			]
+        },
+        "/contact": {
+        	"title": "",
+        	"inquiry-txt": "Contact",
+        	"inquiry-mail": "xavier_ciarrusta@outlook.com",
+        	"inquiry-tel": "+41 (0) 79 855 49 57",
+        	"opportunities-txt": "",
+        	"opportunities-mail": "",
+        	"placeholder-name": "contact_placeholder",
+        	"address0": "AMA",
+        	"address1": "Downtown",
+        	"address2": "ZURICH",
+        	"representation-title": "",
+        	"representation-mail": "",
+        	"representation0": "",
+        	"representation1": ""
+        }
+	}
+}
