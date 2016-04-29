@@ -1,0 +1,66 @@
+{
+	"type": "fullscreen-image",
+	"image-name": "fullscreen-img-0",
+	"image-ext": "jpg"
+}
+
+{
+	"type": "visual-collection-block-horizontal",
+	"visuals": [
+		{
+			"image-name": "visuals-media-0-block-0",
+			"image-ext": "jpg"		
+		},{
+			"image-name": "visuals-media-0-block-0",
+			"image-ext": "jpg"		
+		}
+	]
+}
+
+{
+	"type": "visual-collection-block-vertical",
+	"visuals": [
+		{
+			"image-name": "visuals-media-0-block-0",
+			"image-ext": "jpg"		
+		},{
+			"image-name": "visuals-media-0-block-0",
+			"image-ext": "jpg"		
+		}
+	]
+}
+
+{
+	"type": "quote-collection-block",
+	"quotes": [
+		{
+			"name": "Michael Bloomberg – CEO at Bloomberg",
+			"body": "A delight for the eyes"		
+		},{
+			"name": "Mark Porter – Executive Creative Director",
+			"body": "The purest thing I saw in a while"		
+		},{
+			"name": "Dylan Griffith – Creative Director",
+			"body": "Good stuff, tidy!"		
+		}
+	]
+}
+
+{
+	"type": "title-body-block",
+	"title": "Process video",
+	"body": "Combining the expertise of a design company with the efficiency of a production studio, we create compelling design work with impact."
+}
+
+{
+	"type": "vimeo-player",
+	"preview-img-name": "vimeo-video-screen",
+	"preview-img-ext": "jpg",
+	"video-id": "86457968"
+}
+
+{
+	"type": "paragraph-block",
+	"body": "We designed, developped and directed the 25 idents. Complete rebrand for the USA, China and the UK."
+}
+
